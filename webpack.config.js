@@ -1,5 +1,6 @@
 
 const path = require('path');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: ['./src/app/index.js'],
@@ -9,24 +10,14 @@ module.exports = {
   },
   plugins: [
     new CopyPlugin([
-      { from: './src/app/index.html', to: 'dist' },
-      { from: 'other', to: 'public' },
+      { from: './src/app/index.html', to: '', toType: "dir" }
     ]),
   ],
   
   module: {
-    loaders: [
-      {
-        exclude: /node_modules/,
-        loader: 'babel',
-        query: {
-          presets: ['react', 'es2015', 'stage-1']
-        }
-      }
+    rules: [
+      { test: /\.(js|jsx)$/, use: 'babel-loader' }
     ]
-  },
-  resolve: {
-    extensions: ['', '.js', '.jsx']
   },
   devServer: {
     publicPath: '/',

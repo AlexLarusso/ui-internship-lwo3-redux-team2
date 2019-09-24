@@ -7,6 +7,13 @@ module.exports = {
     path: path.join(__dirname, './dist'),
     filename: 'bundle.js'
   },
+  plugins: [
+    new CopyPlugin([
+      { from: './src/app/index.html', to: 'dist' },
+      { from: 'other', to: 'public' },
+    ]),
+  ],
+  
   module: {
     loaders: [
       {

@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import HomePage from './HomePage/HomePage';
 
 export default class App extends Component {
   render() {
     return (
-      <h1>Hello Interns</h1>
+      <div>
+        <h1>Hello Interns</h1>
+        <HomePage />
+      </div>
     );
   }
 }

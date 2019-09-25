@@ -1,2 +1,6 @@
-export const INCREMENT = "INCREMENT";
-export const DECREMENT = "DECREMENT";
+const TYPES = {
+  INCREMENT:  "[app] set increment",
+  DECREMENT: "[app] set decrement"
+}
+
+export default TYPES;

@@ -3,11 +3,11 @@ import PropTypes from 'prop-types'
 
 class Counter extends Component {
   constructor(props) {
-    super(props);
+    super(props);  
   }
-
+  
   incrementIfOdd = () => {
-    if (this.props.value % 2 !== 0) {
+    if (this.props.count % 2 !== 0) {
       this.props.onIncrement()
     }
   }
@@ -17,10 +17,10 @@ class Counter extends Component {
   }
 
   render() {
-    const { value, onIncrement, onDecrement } = this.props
+    const { count, onIncrement, onDecrement } = this.props
     return (
       <p>
-        Clicked: {value} times
+        Clicked: {count.count} times
         {' '}
         <button onClick={onIncrement}>
           +
@@ -43,7 +43,6 @@ class Counter extends Component {
 }
 
 Counter.propTypes = {
-  value: PropTypes.number.isRequired,
   onIncrement: PropTypes.func.isRequired,
   onDecrement: PropTypes.func.isRequired
 }

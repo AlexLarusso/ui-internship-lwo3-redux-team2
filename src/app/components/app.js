@@ -12,7 +12,7 @@ export default class App extends Component {
         <div>
           <Nav />
           <Switch>
-            <Route path="/" exact component={Home}/>
+            <Route path="/" exact component={Home} />
             <Route path="/home" component={Home} />
             <Route path="/products" component={ProductList} />
             <Route path="/productsdetail" component={ProductDetail} />

@@ -1,0 +1,25 @@
+
+.TopBanner {
+  display: flex;
+  justify-content: space-between;
+  background: #000;
+}
+
+.contact-info {
+  margin-right: auto;
+}
+
+.contact-info-item {
+  margin-right: 2rem;
+}
+
+.social-media-link {
+  margin-left: 2rem;
+  color: #fff;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}

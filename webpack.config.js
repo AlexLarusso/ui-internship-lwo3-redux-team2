@@ -26,7 +26,7 @@ module.exports = {
     historyApiFallback: true,
     contentBase: './src/app/',
     host: 'localhost',
-    port: '3000',
+    port: '3004',
     open: true,
     liveReload: true,
     watchOptions: {

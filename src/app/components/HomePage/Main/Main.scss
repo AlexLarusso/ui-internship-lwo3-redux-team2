@@ -1,20 +1,27 @@
 @import "../../../styles/_variables.scss";
 
 .content {
-  &__container {
+  &__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 500px;
+    height: auto;
+    padding: 50px 0 0 0;
   }
 
-  &__title {
+  &__title,
+  &__title_sale {
+    margin: 20px 0;
     text-align: center;
     color: $accentColor;
 
-    &_sale {
-      text-align: center;
+    &__sale {
       text-transform: uppercase;
+
+      &_message {
+        font-size: 48px;
+        color: $fontColorLight;
+      }
     }
   }
 }
@@ -28,15 +35,18 @@
 }
 
 .product {
-  &__container {
+  &__wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     height: auto;
+    padding: 20px 0;
   }
 
   &__picture {
-    height: 250px;
+    width: 100%;
+    margin: 20px 0;
+    height: auto;
     background: $bgColorMedium;
 
     &_small {
@@ -50,7 +60,7 @@
 }
 
 .promo {
-  &__container {
+  &__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,7 +72,7 @@
 }
 
 .subscribe {
-  &__container {
+  &__wrapper {
     display: flex;
     justify-content: center;
     height: 150px;
@@ -81,8 +91,39 @@
 }
 
 .story {
-  &__container {
+  &__wrapper {
     display: flex;
     height: 500px;
+  }
+
+  &__picture {
+    padding: 20px;
+  }
+
+  &__container {
+    background: $bgColorMedium;
+
+    &_baner {
+      background: url('../../../styles/assets/img/baner.jpeg') top right / cover no-repeat;
+    }
+  }
+
+  &__article {
+    padding: 100px;
+  }
+}
+
+.navidation {
+  &__panel {
+    display: flex;
+    justify-content: space-around;
+    justify-self: flex-end;
+  }
+}
+
+li {
+  &:hover {
+    cursor: pointer;
+    color: $accentColor;
   }
 }

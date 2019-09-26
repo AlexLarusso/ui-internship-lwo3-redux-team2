@@ -1,15 +1,12 @@
 import React from "react";
+import MenuListItems from '../../../shared/MenuListItems/MenuListItems.js';
+import { menuClothes } from '../../../../commonVariables/menuItems.js';
 import "./HeaderClothesNav.scss";
 
 function HeaderClothesNav() {
   return(
-    <div className="list-wrapper">
-      <ul className="list">
-          <li><a className="list-link" href="#">Woman</a></li>
-          <li><a className="list-link" href="#">Man</a></li>
-          <li><a className="list-link" href="#">Children</a></li>
-          <li><a className="list-link" href="#">Collection</a></li>
-        </ul>
+    <div className="menu-wrapper">
+      <MenuListItems menuItemsList={menuClothes} classes="black-text-list"/>
     </div>
   )
 }

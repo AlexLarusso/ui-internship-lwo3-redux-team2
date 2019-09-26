@@ -2,15 +2,30 @@
 
 .header-promo-container {
   display: flex;
+  padding: 0 10%;
+  background-color: $bgColorMedium;
 }
 
 .promo-header {
+  padding: 40px 0 0;
   color: $accentColor;
+  font-size: 34px;
   text-transform: uppercase;
 }
 
 .image-container {
-  width: 345px;
-  height: 450px;
-  background-color: grey;
+  width: 800px;
+  height: 300px;
+  margin-left: 20px;
+  background-color: $fontColorDark;
+}
+
+.grey-text {
+  color: $fontColorDark;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.promo-img {
+  height: 300px;
 }

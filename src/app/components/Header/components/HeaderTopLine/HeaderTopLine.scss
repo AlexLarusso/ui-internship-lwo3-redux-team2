@@ -1,13 +1,25 @@
 @import '../../../../styles/variables';
 
 .header-top-line {
-  padding: 0 20%;
   background-color: $bgColorDark;
   color: $fontColorLight;
+  font-size: 14px;
 
   &-content-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px 5%;
+  }
+
+  .email-phone-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+
+  .social-networks-icons-login-register-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
   }
 }

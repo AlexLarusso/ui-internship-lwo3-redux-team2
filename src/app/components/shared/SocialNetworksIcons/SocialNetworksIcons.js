@@ -1,19 +1,18 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fabFacebook, fabTwitter, fabGoogle } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faTwitter, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import "./SocialNetworksIcons.scss";
 
 function SocialNetworksIcons() {
-  const facebookIcon = <FontAwesomeIcon icon={fabFacebook} />
-  const twitterIcon = <FontAwesomeIcon icon={fabTwitter} />
-  const googleIcon = <FontAwesomeIcon icon={fabGoogle} />
+  const facebookIcon = <FontAwesomeIcon icon={faFacebookF} />
+  const twitterIcon = <FontAwesomeIcon icon={faTwitter} />
+  const googleIcon = <FontAwesomeIcon icon={faGoogle} />
 
   return(
     <div className="social-networks-icons-container">
-      SOCIAL NETWORKS ICONS
-      {/* { facebookIcon }
+      { facebookIcon }
       { twitterIcon }
-      { googleIcon } */}
+      { googleIcon }
     </div>
   );
 }

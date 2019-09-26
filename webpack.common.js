@@ -1,7 +1,9 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
+const path = require('path');
 
 module.exports = {
   devtool: 'source-map',
+  entry: path.resolve(__dirname, './src/index'),
   module: {
     rules: [
       {
@@ -31,6 +33,9 @@ module.exports = {
         },
       },
     ],
+  },
+  resolve: {
+    extensions: ['.js', '.jsx'],
   },
   plugins: [
     new HtmlWebPackPlugin({

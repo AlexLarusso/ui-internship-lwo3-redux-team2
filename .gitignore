@@ -1,8 +1,8 @@
 /node_modules
-/dist
 npm-debug.log
 .DS_Store
 .yo-rc.json
+/dist
 
 # IntelliJ
 *.iml

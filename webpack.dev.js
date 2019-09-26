@@ -11,7 +11,12 @@ module.exports = merge(common, {
           'style-loader',
           {
             loader: 'css-loader',
-            options: { modules: true }
+            options: { 
+              sourceMap: true,
+              modules: {
+                localIdentName: '[name]__[local]___[hash:base64:5]'
+              }
+            }
           },
           'sass-loader'
         ]

@@ -1,10 +1,16 @@
+@import "../../../styles/_variables.scss";
+
 .content {
   &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     height: 500px;
   }
 
   &__title {
     text-align: center;
+    color: $accentColor;
 
     &_sale {
       text-align: center;
@@ -31,16 +37,15 @@
 
   &__picture {
     height: 250px;
-    background: gray;
+    background: $bgColorMedium;
 
     &_small {
       height: 150px;
-      background: gray;
+      background: $bgColorMedium;
     }
   }
 
   &__item {
-    margin: 10px;
   }
 }
 
@@ -51,7 +56,8 @@
     justify-content: center;
     align-items: center;
     height: 250px;
-    background-color: gray;
+    background-color: $bgColorDark;
+    color: $accentColor;
   }
 }
 

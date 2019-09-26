@@ -14,3 +14,17 @@ const App = () => {
 };
 export default App;
 ReactDOM.render(<App />, document.getElementById("root"));
+
+
+//Redux test component:
+// import React, { Component } from 'react';
+// import CounterContainer from '../containers/CounterContainer.js'
+
+// export default class App extends Component {
+//   render() {
+//     return (
+//       <CounterContainer />
+//     );
+//   }
+// }
+

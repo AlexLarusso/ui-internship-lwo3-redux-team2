@@ -1,0 +1,13 @@
+@import '../../../../styles/variables';
+
+.header-top-line {
+  padding: 0 20%;
+  background-color: $bgColorDark;
+  color: $fontColorLight;
+
+  &-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+}

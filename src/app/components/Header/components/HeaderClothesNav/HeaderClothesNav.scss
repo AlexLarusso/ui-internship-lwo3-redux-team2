@@ -1,0 +1,17 @@
+@import '../../../../styles/variables';
+
+.list {
+  display: flex;
+  list-style: none;
+
+  &-link {
+    margin: 0 10px;
+    color: $bgColorDark;
+    text-decoration: none;
+
+    &:hover {
+      color: $accentColor;
+      text-decoration: none;
+    }
+  }
+}

@@ -12,11 +12,13 @@ import React, { Component } from 'react';
 import ReactDOM from "react-dom";
 import style from './app.scss';
 import HomePage from './HomePage/HomePage';
+import Header from './Header/Header';
 
 export default class App extends Component {
   render() {
     return (
       <div>
+        <Header />
         <HomePage />
       </div>
     );

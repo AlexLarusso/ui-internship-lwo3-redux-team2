@@ -1,5 +1,5 @@
 import React from "react";
-// import SocialNetworksIcons from "../SocialNetworksIcons/SocialNetworksIcons.js";
+import SocialNetworksIcons from "../../../shared/SocialNetworksIcons/SocialNetworksIcons";
 import "./HeaderTopLine.scss";
 
 function HeaderTopLine() {
@@ -13,9 +13,11 @@ function HeaderTopLine() {
           {email}
           {phoneNumber}
         </div>
-        {/* <SocialNetworksIcons /> */}
-        <button>Login</button>
-        <button>Register</button>
+        <SocialNetworksIcons />
+        <div>
+          <button>Login</button>
+          <button>Register</button>
+        </div>
       </div>
     </div>
   );

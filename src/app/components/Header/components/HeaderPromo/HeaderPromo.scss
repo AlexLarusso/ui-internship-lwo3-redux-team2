@@ -1,0 +1,16 @@
+@import '../../../../styles/variables';
+
+.header-promo-container {
+  display: flex;
+}
+
+.promo-header {
+  color: $accentColor;
+  text-transform: uppercase;
+}
+
+.image-container {
+  width: 345px;
+  height: 450px;
+  background-color: grey;
+}

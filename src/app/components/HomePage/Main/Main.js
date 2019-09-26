@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import  "./Main.scss";
-import "../../../styles/_gridSystem.scss";
 import "../../../styles/_common.scss";
+import "../../../styles/_reset.scss";
+import "../../../styles/_variables.scss";
+import "../../../styles/_gridSystem.scss";
 
 class Main extends Component {
   render() {
@@ -19,7 +21,7 @@ class Main extends Component {
           </div>
           <div className="product__container">
             <div className="col-3 product__item">
-              <div className="product__picture" />
+              <img className="product__picture" src={requare('')} />
               <h4>PARIS JACKET</h4>
               <p>$89,99</p>
             </div>

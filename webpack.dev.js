@@ -22,5 +22,18 @@ module.exports = merge(common, {
         ]
       }
     ]
+  },
+  devServer: {
+    publicPath: '/',
+    historyApiFallback: true,
+    contentBase: './dist',
+    host: 'localhost',
+    port: '3000',
+    open: true,
+    liveReload: true,
+    watchOptions: {
+      aggregateTimeout: 300,
+      poll: 1000
+    }
   }
 });

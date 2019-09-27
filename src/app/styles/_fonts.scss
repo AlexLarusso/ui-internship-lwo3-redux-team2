@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Montserat-bold;
+  src: url("./assets/fonts/Montserrat-Bold.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Montserat-thin;
+  src: url("./assets/fonts/Montserrat-Thin.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Montserat-regular;
+  src: url("./assets/fonts/Montserrat-Regular.ttf") format("opentype");
+}
+
+$mainFontBold: Montserat-bold;
+$mainFontThin: Montserat-italic;
+$mainFontRegular: Montserat-regular;

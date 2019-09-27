@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/app';
-import { createStore, applyMiddleware } from 'redux'
+import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
-import counter from './reducers';
 import logger from 'redux-logger';
+import counter from './app/reducers';
+import App from './app/components/app';
 
 const store = createStore(counter, applyMiddleware(logger));
 
 ReactDOM.render(
-  <Provider store={ store }>
+  <Provider store={store}>
     <App />
-  </Provider>
-  , document.querySelector('#root'));
+  </Provider>,
+  document.querySelector('#root'),
+);

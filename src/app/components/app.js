@@ -13,14 +13,22 @@ import ReactDOM from "react-dom";
 import style from './app.scss';
 import HomePage from './HomePage/HomePage';
 import Header from './Header/Header';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import ProductDetails from './shared/ProductDetails/ProductDetails.js';
 
 export default class App extends Component {
   render() {
     return (
-      <div>
-        <Header />
-        <HomePage />
-      </div>
+      <Router>
+        <div>
+          <Header />
+          <Switch>
+            <Route path="/" exact component={ HomePage }/>
+            <Route path="/home" component={ HomePage }/>
+            <Route path="/productdetails" component={ ProductDetails }/>
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }

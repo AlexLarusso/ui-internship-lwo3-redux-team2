@@ -5,7 +5,7 @@ import './Button.scss';
 
 function Button({ buttonText, eventHandler, classes }) {
   return (
-    <button className={classes} onClick={eventHandler}>{ buttonText }</button>
+    <button className={classes} onClick={eventHandler}>{buttonText}</button>
   );
 }
 

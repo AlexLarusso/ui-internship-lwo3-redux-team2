@@ -1,5 +1,4 @@
 // import React, { Component } from 'react';
-// import ReactDOM from 'react-dom';
 // import CounterContainer from '../containers/CounterContainer';
 
 // // eslint-disable-next-line react/prefer-stateless-function
@@ -10,8 +9,6 @@
 //     );
 //   }
 // }
-
-// ReactDOM.render(<App />, document.getElementById('root'));
 
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable react/prefer-stateless-function */

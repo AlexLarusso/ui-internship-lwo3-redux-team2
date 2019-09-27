@@ -7,7 +7,7 @@
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js --progress --profile --colors",
     "build": "webpack --config webpack.prod.js --progress --profile --colors",
-    "lint": "./node_modules/.bin/eslint src/**/*.js",
+    "lint": "./node_modules/.bin/eslint src/**/*.js src/**/*.jsx",
     "test": "jest"
   },
   "husky": {
@@ -63,6 +63,7 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "babel-preset-stage-1": "^6.1.18",
     "lodash": "^3.10.1",
+    "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-css-modules": "^4.7.11",
     "react-dom": "^16.9.0",

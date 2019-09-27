@@ -1,56 +1,56 @@
 export const menuClothes = [
   {
     link: 'www.griddynamics.com',
-    itemName: 'Woman'
+    itemName: 'Woman',
   },
   {
     link: 'www.griddynamics.com',
-    itemName: 'Man'
+    itemName: 'Man',
   },
   {
     link: 'www.griddynamics.com',
-    itemName: 'Children'
+    itemName: 'Children',
   },
   {
     link: 'www.griddynamics.com',
-    itemName: 'Collection'
+    itemName: 'Collection',
   },
 ];
 
 export const menuSeasons = [
   {
     link: 'www.griddynamics.com',
-    itemName: 'Spring'
+    itemName: 'Spring',
   },
   {
     link: 'www.griddynamics.com',
-    itemName: 'Summer'
+    itemName: 'Summer',
   },
   {
     link: 'www.griddynamics.com',
-    itemName: 'Fall'
+    itemName: 'Fall',
   },
   {
     link: 'www.griddynamics.com',
-    itemName: 'Winter'
+    itemName: 'Winter',
   },
 ];
 
 export const menuShopping = [
   {
     link: 'www.griddynamics.com',
-    itemName: 'Shopping Cart'
+    itemName: 'Shopping Cart',
   },
   {
     link: 'www.griddynamics.com',
-    itemName: 'Wishlist'
+    itemName: 'Wishlist',
   },
   {
     link: 'www.griddynamics.com',
-    itemName: 'Checkout'
+    itemName: 'Checkout',
   },
   {
     link: 'www.griddynamics.com',
-    itemName: 'My account'
+    itemName: 'My account',
   },
 ];

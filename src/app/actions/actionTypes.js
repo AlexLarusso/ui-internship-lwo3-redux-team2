@@ -1,6 +1,6 @@
 const TYPES = {
-  INCREMENT:  "[app] set increment",
-  DECREMENT: "[app] set decrement"
-}
+  INCREMENT: '[app] set increment',
+  DECREMENT: '[app] set decrement',
+};
 
 export default TYPES;

@@ -1,0 +1,30 @@
+@import '../../../../styles/variables';
+
+.shopping-menu-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10%;
+  margin-bottom: 20px;
+  background-color: $bgColorDark;
+  color: $fontColorLight;
+  font-size: 14px;
+}
+
+.language-currency-wrapper {
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+  color: $bgColorDark;
+}
+
+.search-input {
+  color: $bgColorDark;
+  padding: 0 5px;
+}
+
+.search-input::-webkit-input-placeholder{
+  font-size: 14px;
+  
+}
+

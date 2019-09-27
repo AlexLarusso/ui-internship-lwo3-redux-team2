@@ -3,7 +3,6 @@
 bundle.js
 npm-debug.log
 .DS_Store
-/dist
 .yo-rc.json
 
 # IntelliJ

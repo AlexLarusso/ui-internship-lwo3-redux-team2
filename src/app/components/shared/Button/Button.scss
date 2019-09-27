@@ -1,0 +1,25 @@
+@import '../../../styles/variables';
+
+.defaultBtn {
+  width: 130px;
+  height: 40px;
+  margin: 10px 0;
+  border: 2px solid $accentColor;
+  background-color: transparent;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.top-line-btn {
+  width: 100px;
+  margin: 0 10px;
+  color: $fontColorLight;
+  background-color: $bgColorDark;
+  border:none;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

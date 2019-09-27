@@ -1,0 +1,25 @@
+@import '../../../../styles/variables';
+
+.header-top-line {
+  background-color: $bgColorDark;
+  color: $fontColorLight;
+  font-size: 14px;
+
+  &-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10%;
+  }
+
+  .email-phone-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+
+  .social-networks-icons-login-register-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+}

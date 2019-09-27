@@ -1,7 +1,7 @@
 {
   "name": "coda",
   "version": "0.0.1",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "Сoda start project",
   "main": "index.jsx",
   "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
   "scripts": {

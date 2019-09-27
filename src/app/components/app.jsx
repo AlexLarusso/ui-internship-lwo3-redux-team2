@@ -2,7 +2,6 @@ import React from 'react';
 import style from './app.scss';
 
 const App = () => {
-  console.log(style);
   return (
     <div className={style.test}>
       <p className={style.testHello}>React here!</p>

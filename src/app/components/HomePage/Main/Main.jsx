@@ -1,9 +1,13 @@
-import React, { Component } from "react";
-import  "./Main.scss";
-import "../../../styles/_common.scss";
-import "../../../styles/_reset.scss";
-import "../../../styles/_variables.scss";
-import "../../../styles/_gridSystem.scss";
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable global-require */
+/* eslint-disable react/prefer-stateless-function */
+import React, { Component } from 'react';
+import Button from '../../shared/Button/Button';
+import './Main.scss';
+import '../../../styles/_common.scss';
+import '../../../styles/_reset.scss';
+import '../../../styles/_variables.scss';
+import '../../../styles/_gridSystem.scss';
 
 class Main extends Component {
   render() {
@@ -21,25 +25,25 @@ class Main extends Component {
           </div>
           <div className="product__wrapper">
             <div className="col-3 product__item">
-              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_1.jpg')}/>
+              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_1.jpg')} />
               <h4>PARIS JACKET</h4>
               <p>$89,99</p>
             </div>
 
             <div className="col-3 product__item">
-            <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_2.jpg')}/>
+              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_2.jpg')} />
               <h4>PARIS JACKET</h4>
               <p>$89,99</p>
             </div>
 
             <div className="col-3 product__item">
-            <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_3.jpg')}/>
+              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_3.jpg')} />
               <h4>PARIS JACKET</h4>
               <p>$89,99</p>
             </div>
 
             <div className="col-3 product__item">
-            <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_4.jpg')}/>
+              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_4.jpg')} />
               <h4>PARIS JACKET</h4>
               <p>$89,99</p>
             </div>
@@ -53,28 +57,28 @@ class Main extends Component {
             Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Vivamus suscipit tortor eget felis porttitor volutpat.
           </p>
-          <button className="col-3 button">All collection</button>
+          <Button buttonText="All collection" classes="defaultBtn" />
           <div className="product__wrapper">
             <div className="col-3 product__item">
-              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_5.jpg')}/>
+              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_5.jpg')} />
               <h4>PARIS JACKET</h4>
               <p>$89,99</p>
             </div>
 
             <div className="col-3 product__item">
-              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_6.jpg')}/>
+              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_6.jpg')} />
               <h4>PARIS JACKET</h4>
               <p>$89,99</p>
             </div>
 
             <div className="col-3 product__item">
-              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_7.jpg')}/>
+              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_7.jpg')} />
               <h4>PARIS JACKET</h4>
               <p>$89,99</p>
             </div>
 
             <div className="col-3 product__item">
-              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_8.jpg')}/>
+              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_8.jpg')} />
               <h4>PARIS JACKET</h4>
               <p>$89,99</p>
             </div>
@@ -87,10 +91,10 @@ class Main extends Component {
         </section>
 
         <section className="content__container content__wrapper">
-          <form className="subscribe__form">
-            <p className="col-4">Subscribe to Newsletter:</p>
-            <input className="col-5" placeholder="Your Mail" />
-            <button className="col-2">Subscribe</button>
+          <form className="col-10 subscribe__form">
+            <p className="col-4 subscribe__text">Subscribe to Newsletter:</p>
+            <input className="col-5 subscribe__input-field" placeholder="Your Mail" />
+            <Button buttonText="Subscribe" classes="defaultBtn accentButton" />
           </form>
         </section>
 
@@ -108,76 +112,72 @@ class Main extends Component {
                 <li>New</li>
                 <li>On Sale</li>
               </ul>
-              {/* <button className="col-1">Winter</button>
-              <button className="col-1">Spring</button>
-              <button className="col-1">Summer</button>
-              <button className="col-1">Fall</button> */}
             </div>
           </div>
           <div className="product__wrapper">
             <div className="col-3 product__item">
-              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_9.jpg')}/>
+              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_9.jpg')} />
               <h4>PARIS JACKET</h4>
               <p>$89,99</p>
             </div>
 
             <div className="col-3 product__item">
-              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_10.jpg')}/>
+              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_10.jpg')} />
               <h4>PARIS JACKET</h4>
               <p>$89,99</p>
             </div>
 
             <div className="col-3 product__item">
-              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_11.jpg')}/>
+              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_11.jpg')} />
               <h4>PARIS JACKET</h4>
               <p>$89,99</p>
             </div>
 
             <div className="col-3 product__item">
-              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_12.jpg')}/>
+              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_12.jpg')} />
               <h4>PARIS JACKET</h4>
               <p>$89,99</p>
             </div>
 
             <div className="col-3 product__item">
-              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_13.jpg')}/>
+              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_13.jpg')} />
               <h4>PARIS JACKET</h4>
               <p>$89,99</p>
             </div>
 
             <div className="col-3 product__item">
-              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_14.jpg')}/>
+              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_14.jpg')} />
               <h4>PARIS JACKET</h4>
               <p>$89,99</p>
             </div>
 
             <div className="col-3 product__item">
-              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_15.jpg')}/>
+              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_15.jpg')} />
               <h4>PARIS JACKET</h4>
               <p>$89,99</p>
             </div>
 
             <div className="col-3 product__item">
-              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_16.jpg')}/>
+              <img className="product__picture" src={require('../../../styles/assets/img/products_img/product_picture_16.jpg')} />
               <h4>PARIS JACKET</h4>
               <p>$89,99</p>
             </div>
           </div>
-          <button className="col-3 button">Show me more</button>
+          <Button buttonText="Show me more" classes="defaultBtn" />
         </section>
 
         <section className="story__wrapper">
-          <div className="col-6 story__container_baner"></div>
+          <div className="col-6 story__container_baner" />
           <div className="col-6 story__container">
             <div className="story__article">
               <h2 className="content__title">Story Behind</h2>
-              <img className="col-3 story__picture" src={require('../../../styles/assets/img/logo_light.png')}/>
+              <img className="col-3 story__picture" src={require('../../../styles/assets/img/logo_light.png')} />
               <p>
               Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat.
-              Accumsan id imperdiet et, porttitor at sem. 
+              Accumsan id imperdiet et, porttitor at sem.
               Vestibulum ac diam sit amet quam vehisuscipit tortor eget felis.
               </p>
-              <button className="button">Contact Us</button>
+              <Button buttonText="Contact us" classes="defaultBtn" />
             </div>
           </div>
         </section>

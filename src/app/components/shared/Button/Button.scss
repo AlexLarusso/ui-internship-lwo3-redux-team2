@@ -1,13 +1,14 @@
 @import '../../../styles/variables';
 
 .defaultBtn {
-  width: 130px;
+  width: 150px;
   height: 40px;
   margin: 10px 0;
   border: 2px solid $accentColor;
   background-color: transparent;
 
   &:hover {
+    cursor: pointer;
     transform: scale(1.1);
   }
 }
@@ -20,6 +21,12 @@
   border:none;
 
   &:hover {
+    cursor: pointer;
     transform: scale(1.1);
   }
+}
+
+.accentButton {
+  background: $accentColor;
+  color: $fontColorLight;
 }

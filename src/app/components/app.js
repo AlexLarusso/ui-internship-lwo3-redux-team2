@@ -1,20 +1,12 @@
-// import React, { Component } from 'react';
-// import CounterContainer from '../containers/CounterContainer.js'
+/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable react/prefer-stateless-function */
 
-// export default class App extends Component {
-//   render() {
-//     return (
-//       <CounterContainer />
-//     );
-//   }
-// }
 import React, { Component } from 'react';
-import ReactDOM from "react-dom";
-import style from './app.scss';
+import ReactDOM from 'react-dom';
 import HomePage from './HomePage/HomePage';
 import Header from './Header/Header';
 
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
       <div>
@@ -40,4 +32,5 @@ export default class App extends Component {
 //   );
 // };
 // export default App;
-ReactDOM.render(<App />, document.getElementById("root"));
+export default App;
+ReactDOM.render(<App />, document.getElementById('root'));

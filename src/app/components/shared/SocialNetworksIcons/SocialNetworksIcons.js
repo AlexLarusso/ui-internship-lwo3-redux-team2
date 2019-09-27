@@ -4,9 +4,9 @@ import { faFacebookF, faTwitter, faGoogle } from '@fortawesome/free-brands-svg-i
 import "./SocialNetworksIcons.scss";
 
 function SocialNetworksIcons() {
-  const facebookIcon = <FontAwesomeIcon icon={faFacebookF} />
-  const twitterIcon = <FontAwesomeIcon icon={faTwitter} />
-  const googleIcon = <FontAwesomeIcon icon={faGoogle} />
+  const facebookIcon = <FontAwesomeIcon className="social-network-icon" icon={faFacebookF} />
+  const twitterIcon = <FontAwesomeIcon className="social-network-icon" icon={faTwitter} />
+  const googleIcon = <FontAwesomeIcon className="social-network-icon" icon={faGoogle} />
 
   return(
     <div className="social-networks-icons-container">

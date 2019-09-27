@@ -1,6 +1,10 @@
 .social-network-icon {
   margin: 0 5px;
   height: 15px;
+  
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .social-networks-icons-container {

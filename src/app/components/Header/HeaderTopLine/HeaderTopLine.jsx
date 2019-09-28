@@ -8,16 +8,18 @@ function HeaderTopLine() {
   const phoneNumber = '+12 345-678-90';
 
   return (
-    <div className="header-top-line">
-      <div className="header-top-line-content-wrapper">
-        <div className="email-phone-wrapper">
-          <div>{email}</div>
-          <div>{phoneNumber}</div>
-        </div>
-        <div className="social-networks-icons-login-register-wrapper">
-          <SocialNetworksIcons />
-          <Button buttonText="Login" classes="top-line-btn" />
-          <Button buttonText="Register" classes="top-line-btn" />
+    <div className="header__line">
+      <div className="content__container">
+        <div className="header__wrapper">
+          <div className="email-phone__wrapper">
+            <div>{email}</div>
+            <div>{phoneNumber}</div>
+          </div>
+          <div className="social-networks__wrapper">
+            <SocialNetworksIcons />
+            <Button buttonText="Login" classes="top-line-btn" />
+            <Button buttonText="Register" classes="top-line-btn" />
+          </div>
         </div>
       </div>
     </div>

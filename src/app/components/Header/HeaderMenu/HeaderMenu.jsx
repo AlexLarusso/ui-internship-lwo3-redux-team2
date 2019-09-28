@@ -6,7 +6,7 @@ import './HeaderMenu.scss';
 
 function HeaderMenu() {
   return (
-    <div className="header-menu-container">
+    <div className="content__container menu__wrapper">
       <HeaderClothesNav />
       <MainLogo />
       <SeasonsNav />

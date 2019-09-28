@@ -9,11 +9,12 @@ function SocialNetworksIcons() {
   const googleIcon = <FontAwesomeIcon className="social-network-icon" icon={faGoogle} />;
 
   return (
-    <div className="social-networks-icons-container">
+    <div className="icons__container">
       { facebookIcon }
       { twitterIcon }
       { googleIcon }
     </div>
   );
 }
+
 export default SocialNetworksIcons;

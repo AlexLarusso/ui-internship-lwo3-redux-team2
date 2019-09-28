@@ -5,7 +5,8 @@ import './SeasonsNav.scss';
 
 function SeasonsNav() {
   return (
-    <MenuListItems menuItemsList={menuSeasons} classes="black-text-list" />
+    <MenuListItems menuItemsList={menuSeasons} classes="list__dark" />
   );
 }
+
 export default SeasonsNav;

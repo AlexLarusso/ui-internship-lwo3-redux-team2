@@ -18,8 +18,15 @@ a {
   color: $bgColorDark;
 }
 
-button {
-  outline: none;
+button,
+select {
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: none;
+  }
 }
 
 li {

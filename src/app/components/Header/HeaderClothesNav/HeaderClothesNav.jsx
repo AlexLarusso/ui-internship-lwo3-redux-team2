@@ -5,7 +5,7 @@ import './HeaderClothesNav.scss';
 
 function HeaderClothesNav() {
   return (
-    <div className="menu-wrapper">
+    <div className="menu__wrapper">
       <MenuListItems menuItemsList={menuClothes} classes="black-text-list" />
     </div>
   );

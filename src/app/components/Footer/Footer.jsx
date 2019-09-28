@@ -1,14 +1,8 @@
 /* eslint-disable global-require */
-
 import React from 'react';
-import '../../styles/_common.scss';
-import '../../styles/_reset.scss';
-import '../../styles/_variables.scss';
-import '../../styles/_gridSystem.scss';
-import './Footer.scss';
 import Button from '../shared/Button/Button';
 import SocialNetworksIcons from '../shared/SocialNetworksIcons/SocialNetworksIcons';
-
+import './Footer.scss';
 
 function Footer() {
   return (

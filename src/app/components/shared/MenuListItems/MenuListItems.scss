@@ -1,44 +1,35 @@
 @import '../../../styles/variables';
 
-.black-text-list {
-  .list {
+.list {
     display: flex;
+    justify-content: space-between;
     padding: 0;
+    margin: 0;
     list-style: none;
 
-    &-link {
-      margin: 0 10px;
-      color: $bgColorDark;
-      text-decoration: none;
+  &__link {
+    margin: 0 10px 0;
+    text-decoration: none;
 
-      &:hover {
-        color: $accentColor;
-        text-decoration: none;
+    &:hover {
+      color: $accentColor;
+    }
+  }
+
+  &__dark {
+    .list {
+      &__link {
+        color: $fontColorDark;
       }
     }
   }
+
+  &__light {
+    .list {
+      &__link {
+        color: $fontColorLight;
+      }
+    }
+  } 
 }
 
-.white-text-list {
-  .list {
-    display: flex;
-    padding: 0;
-    margin-bottom: 0;
-    list-style: none;
-
-    &-link {
-      margin: 0 10px;
-      color: $fontColorLight;
-      text-decoration: none;
-
-      &:hover {
-        color: $accentColor;
-        text-decoration: none;
-      }
-    }
-
-    .list-wrapper {
-      align-items: center;
-    }
-  }
-} 

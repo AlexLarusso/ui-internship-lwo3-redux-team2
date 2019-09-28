@@ -56,7 +56,6 @@
     }
 
     &:hover {
-      cursor: pointer;
       transform: scale(1.05);
     }
   }
@@ -136,7 +135,6 @@
 
 li {
   &:hover {
-    cursor: pointer;
     color: $accentColor;
   }
 }

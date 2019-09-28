@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import './SocialNetworksIcons.scss';
 
-function SocialNetworksIcons() {
+const SocialNetworksIcons = () => {
   const facebookIcon = <FontAwesomeIcon className="social-network-icon" icon={faFacebookF} />;
   const twitterIcon = <FontAwesomeIcon className="social-network-icon" icon={faTwitter} />;
   const googleIcon = <FontAwesomeIcon className="social-network-icon" icon={faGoogle} />;
@@ -15,6 +15,6 @@ function SocialNetworksIcons() {
       { googleIcon }
     </div>
   );
-}
+};
 
 export default SocialNetworksIcons;

@@ -7,15 +7,6 @@
     margin: 0;
     list-style: none;
 
-  &__link {
-    margin: 0 10px 0;
-    text-decoration: none;
-
-    &:hover {
-      color: $accentColor;
-    }
-  }
-
   &__dark {
     .list {
       &__link {
@@ -30,6 +21,16 @@
         color: $fontColorLight;
       }
     }
-  } 
+  }
+
+  &__link {
+    margin: 0 10px 0;
+    text-decoration: none;
+
+    &:hover {
+      color: $accentColor;
+      text-decoration: none;
+    }
+  }
 }
 

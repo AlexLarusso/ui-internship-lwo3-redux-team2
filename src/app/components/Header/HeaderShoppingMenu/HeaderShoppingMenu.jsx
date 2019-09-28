@@ -3,9 +3,9 @@ import MenuListItems from '../../shared/MenuListItems/MenuListItems';
 import { menuShopping } from '../../../commonVariables/menuItems';
 import './HeaderShoppingMenu.scss';
 
-function ShoppingMenu() {
-  return (
-    <div className="shopping-menu__wrapper">
+const ShoppingMenu = () => (
+  <div className="shopping-menu__wrapper">
+    <div className="content__container shopping-menu__container">
       <div className="language-currency__wrapper">
         <div>
           <form>
@@ -32,8 +32,8 @@ function ShoppingMenu() {
       <input className="search-input" type="search" placeholder="Search..." />
       <div className="priceToPay">$79.00</div>
     </div>
-  );
-}
+  </div>
+);
 
 export default ShoppingMenu;
 

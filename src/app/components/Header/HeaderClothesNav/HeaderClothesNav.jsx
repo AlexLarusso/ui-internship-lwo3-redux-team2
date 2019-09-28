@@ -3,11 +3,10 @@ import MenuListItems from '../../shared/MenuListItems/MenuListItems';
 import { menuClothes } from '../../../commonVariables/menuItems';
 import './HeaderClothesNav.scss';
 
-function HeaderClothesNav() {
-  return (
-    <div className="menu__wrapper">
-      <MenuListItems menuItemsList={menuClothes} classes="black-text-list" />
-    </div>
-  );
-}
+const HeaderClothesNav = () => (
+  <div className="menu__wrapper">
+    <MenuListItems menuItemsList={menuClothes} classes="list__dark" />
+  </div>
+);
+
 export default HeaderClothesNav;

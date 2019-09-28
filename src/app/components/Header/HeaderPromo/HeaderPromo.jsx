@@ -5,7 +5,7 @@
 import React from 'react';
 import './HeaderPromo.scss';
 import { Link } from 'react-router-dom';
-import Button from '../../../shared/Button/Button';
+import Button from '../../shared/Button/Button';
 
 function HeaderPromo() {
   return (

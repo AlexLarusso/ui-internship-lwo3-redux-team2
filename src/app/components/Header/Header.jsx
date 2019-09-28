@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
-import HeaderTopLine from './components/HeaderTopLine/HeaderTopLine';
-import HeaderMenu from './components/HeaderMenu/HeaderMenu';
-import HeaderPromo from './components/HeaderPromo/HeaderPromo';
-import HeaderShoppingMenu from './components/HeaderShoppingMenu/HeaderShoppingMenu';
+import HeaderTopLine from './HeaderTopLine/HeaderTopLine';
+import HeaderMenu from './HeaderMenu/HeaderMenu';
+import HeaderPromo from './HeaderPromo/HeaderPromo';
+import HeaderShoppingMenu from './HeaderShoppingMenu/HeaderShoppingMenu';
 
 function Header() {
   return (

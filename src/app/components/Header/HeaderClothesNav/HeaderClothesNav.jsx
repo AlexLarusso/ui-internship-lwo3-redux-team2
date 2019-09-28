@@ -1,6 +1,6 @@
 import React from 'react';
-import MenuListItems from '../../../shared/MenuListItems/MenuListItems';
-import { menuClothes } from '../../../../commonVariables/menuItems';
+import MenuListItems from '../../shared/MenuListItems/MenuListItems';
+import { menuClothes } from '../../../commonVariables/menuItems';
 import './HeaderClothesNav.scss';
 
 function HeaderClothesNav() {

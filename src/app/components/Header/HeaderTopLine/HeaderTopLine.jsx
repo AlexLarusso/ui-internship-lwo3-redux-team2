@@ -1,6 +1,6 @@
 import React from 'react';
-import SocialNetworksIcons from '../../../shared/SocialNetworksIcons/SocialNetworksIcons';
-import Button from '../../../shared/Button/Button';
+import SocialNetworksIcons from '../../shared/SocialNetworksIcons/SocialNetworksIcons';
+import Button from '../../shared/Button/Button';
 import './HeaderTopLine.scss';
 
 function HeaderTopLine() {

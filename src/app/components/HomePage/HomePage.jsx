@@ -1,15 +1,12 @@
-/* eslint-disable react/prefer-stateless-function */
-import React, { Component } from 'react';
+import React from 'react';
 import Main from './Main/Main';
 
-class HomePage extends Component {
-  render() {
-    return (
-      <div>
-        <Main />
-      </div>
-    );
-  }
+function HomePage() {
+  return (
+    <div>
+      <Main />
+    </div>
+  );
 }
 
 export default HomePage;

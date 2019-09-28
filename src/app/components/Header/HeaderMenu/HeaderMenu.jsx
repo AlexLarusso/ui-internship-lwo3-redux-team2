@@ -1,6 +1,6 @@
 import React from 'react';
 import HeaderClothesNav from '../HeaderClothesNav/HeaderClothesNav';
-import MainLogo from '../../../shared/MainLogo/MainLogo';
+import MainLogo from '../../shared/MainLogo/MainLogo';
 import SeasonsNav from '../SeasonsNav/SeasonsNav';
 import './HeaderMenu.scss';
 

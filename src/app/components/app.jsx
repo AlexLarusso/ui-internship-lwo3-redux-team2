@@ -19,7 +19,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import HomePage from './HomePage/HomePage';
 import Header from './Header/Header';
 import ProductDetails from './shared/ProductDetails/ProductDetails';
-import Footer from './HomePage/Footer/Footer';
+import Footer from './Footer/Footer';
 
 class App extends Component {
   render() {

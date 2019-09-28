@@ -1,4 +1,5 @@
 /* eslint-disable global-require */
+
 import React from 'react';
 import Button from '../../shared/Button/Button';
 import './Main.scss';

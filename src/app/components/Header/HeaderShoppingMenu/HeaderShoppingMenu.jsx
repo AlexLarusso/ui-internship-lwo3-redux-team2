@@ -1,6 +1,6 @@
 import React from 'react';
-import MenuListItems from '../../../shared/MenuListItems/MenuListItems';
-import { menuShopping } from '../../../../commonVariables/menuItems';
+import MenuListItems from '../../shared/MenuListItems/MenuListItems';
+import { menuShopping } from '../../../commonVariables/menuItems';
 import './HeaderShoppingMenu.scss';
 
 function ShoppingMenu() {

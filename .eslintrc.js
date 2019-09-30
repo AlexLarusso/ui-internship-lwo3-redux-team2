@@ -26,7 +26,7 @@ module.exports = {
    'semi': ['error', 'always'],
    'quotes': ['error', 'single'],
    'indent': ['error', 2],
-   'object-curly-spacing': [2, 'always']
+   'object-curly-spacing': [2, 'always'],
   },
   parser: 'babel-eslint'
 };

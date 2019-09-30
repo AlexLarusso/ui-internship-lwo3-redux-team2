@@ -7,7 +7,7 @@
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js --progress --profile --colors",
     "build": "webpack --config webpack.prod.js --progress --profile --colors",
-    "lint": "./node_modules/.bin/eslint src/**/*.js",
+    "lint": "./node_modules/.bin/eslint src/**/*.js src/**/*.jsx",
     "test": "jest"
   },
   "husky": {
@@ -20,6 +20,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/preset-env": "^7.6.2",
     "@babel/preset-react": "^7.0.0",
     "babel-core": "^6.2.1",
@@ -62,10 +63,13 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "babel-preset-stage-1": "^6.1.18",
     "lodash": "^3.10.1",
+    "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-css-modules": "^4.7.11",
     "react-dom": "^16.9.0",
     "react-redux": "^7.1.1",
+    "react-router": "^5.1.0",
+    "react-router-dom": "^5.1.0",
     "redux": "^4.0.4",
     "redux-logger": "^3.0.6",
     "reselect": "^4.0.0"

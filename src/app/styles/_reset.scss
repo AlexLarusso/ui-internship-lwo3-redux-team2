@@ -1,6 +1,9 @@
+@import './variables';
+@import './fonts';
+
 * {
-  margin: 0;
   border: none;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -12,11 +15,18 @@ body {
 
 a {
   text-decoration: none;
-  color: $black-color;
+  color: $bgColorDark;
 }
 
-button {
-  outline: none;
+button,
+select {
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: none;
+  }
 }
 
 li {

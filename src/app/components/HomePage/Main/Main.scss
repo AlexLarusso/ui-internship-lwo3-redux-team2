@@ -1,0 +1,140 @@
+@import "../../../styles/_variables.scss";
+
+.content {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    padding: 50px 0 0 0;
+  }
+
+  &__title,
+  &__title_sale {
+    margin: 20px 0;
+    text-align: center;
+    color: $accentColor;
+
+    &__sale {
+      text-transform: uppercase;
+
+      &_message {
+        font-size: 48px;
+        color: $fontColorLight;
+      }
+    }
+  }
+}
+
+.filter {
+  &__panel {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+}
+
+.product {
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  &__picture {
+    width: 100%;
+    margin: 20px 0;
+    height: auto;
+    background: $bgColorMedium;
+
+    &_small {
+      height: 150px;
+      background: $bgColorMedium;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+.promo {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: $bgColorDark;
+    color: $accentColor;
+  }
+}
+
+.subscribe {
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__input-field {
+    border: 1px solid $bgColorDark;
+    height: 40px;
+
+    &::placeholder {
+      padding-left: 20px;
+    }
+  }
+}
+
+.button {
+  display: flex;
+  align-self: center;
+  text-align: center;
+}
+
+.story {
+  &__wrapper {
+    display: flex;
+    height: 500px;
+  }
+
+  &__picture {
+    padding: 20px;
+  }
+
+  &__container {
+    background: $bgColorMedium;
+
+    &_baner {
+      background: url('../../../styles/assets/img/banner.jpeg') top right / cover no-repeat;
+    }
+  }
+
+  &__article {
+    padding: 100px 0 0 50px;
+  }
+}
+
+.navidation {
+  &__panel {
+    display: flex;
+    justify-content: space-around;
+    justify-self: flex-end;
+  }
+}
+
+li {
+  &:hover {
+    color: $accentColor;
+  }
+}

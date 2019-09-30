@@ -1,52 +1,46 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-class Counter extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  incrementIfOdd = () => {
-    if (this.props.count % 2 !== 0) {
-      this.props.onIncrement();
+function Counter(props) {
+  const incrementIfOdd = () => {
+    if (props.count % 2 !== 0) {
+      props.onIncrement();
     }
-  }
+  };
+  const incrementAsync = () => {
+    setTimeout(props.onIncrement, 1000);
+  };
+  const { count, onIncrement, onDecrement } = props;
 
-  incrementAsync = () => {
-    setTimeout(this.props.onIncrement, 1000);
-  }
-
-  render() {
-    const { count, onIncrement, onDecrement } = this.props;
-    return (
-      <p>
-        Clicked: 
-{' '}
-{count.count}
-{' '}
-times
-{' '}
-        <button onClick={onIncrement}>
-          +
-        </button>
-        {' '}
-        <button onClick={onDecrement}>
-          -
-        </button>
-        {' '}
-        <button onClick={this.incrementIfOdd}>
-          Increment if odd
-        </button>
-        {' '}
-        <button onClick={this.incrementAsync}>
-          Increment async
-        </button>
-      </p>
-    );
-  }
+  return (
+    <p>
+      Clicked:
+      {' '}
+      {count.count}
+      {' '}
+      times
+      {' '}
+      <button type="submit" onClick={onIncrement}>
+        +
+      </button>
+      {' '}
+      <button type="submit" onClick={onDecrement}>
+        -
+      </button>
+      {' '}
+      <button type="submit" onClick={incrementIfOdd}>
+        Increment if odd
+      </button>
+      {' '}
+      <button type="submit" onClick={incrementAsync}>
+        Increment async
+      </button>
+    </p>
+  );
 }
 
 Counter.propTypes = {
+  count: PropTypes.number.isRequired,
   onIncrement: PropTypes.func.isRequired,
   onDecrement: PropTypes.func.isRequired,
 };

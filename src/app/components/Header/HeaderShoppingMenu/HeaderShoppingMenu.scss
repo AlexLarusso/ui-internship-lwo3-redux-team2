@@ -1,0 +1,35 @@
+@import '../../../styles/variables';
+
+.shopping-menu {
+  &__wrapper {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: $bgColorDark;
+    color: $fontColorLight;
+    font-size: 14px;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.language-currency {
+  &__wrapper {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    color: $bgColorDark;
+  }
+}
+
+.search-input {
+  color: $bgColorDark;
+  padding: 0 5px;
+  
+  &::-webkit-input-placeholder {
+    font-size: 14px;
+  } 
+}

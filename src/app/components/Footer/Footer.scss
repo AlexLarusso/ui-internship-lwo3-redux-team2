@@ -1,0 +1,29 @@
+@import '../../styles/variables';
+
+.footer {
+  &__container {
+    display: flex;
+    align-items: center;
+    height: 350px;
+    background: $bgColorDark;
+    color: $fontColorLight;
+    font-size: 12px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 300px;
+  }
+
+  &__logo {
+    margin: 0 0 10px;
+  }
+
+  &__title {
+    margin: 0;
+    height: 40px;
+    font-size: 20px;
+  }
+}

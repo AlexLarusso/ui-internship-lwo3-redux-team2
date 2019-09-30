@@ -27,7 +27,6 @@ module.exports = {
    'quotes': ['error', 'single'],
    'indent': ['error', 2],
    'object-curly-spacing': [2, 'always'],
-   'linebreak-style': ["error", "windows"]
   },
   parser: 'babel-eslint'
 };

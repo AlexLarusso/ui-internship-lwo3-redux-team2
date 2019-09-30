@@ -24,14 +24,3 @@ const App = () => (
 );
 
 export default App;
-
-/* Redux test component:
-import React from 'react';
-import CounterContainer from '../containers/CounterContainer';
-
-export default function App() {
-  return (
-    <CounterContainer />
-  );
-}
-*/

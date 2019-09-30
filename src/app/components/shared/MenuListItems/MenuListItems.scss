@@ -1,0 +1,36 @@
+@import '../../../styles/variables';
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+  &__dark {
+    .list {
+      &__link {
+        color: $fontColorDark;
+      }
+    }
+  }
+
+  &__light {
+    .list {
+      &__link {
+        color: $fontColorLight;
+      }
+    }
+  }
+
+  &__link {
+    margin: 0 10px 0;
+    text-decoration: none;
+
+    &:hover {
+      color: $accentColor;
+      text-decoration: none;
+    }
+  }
+}
+

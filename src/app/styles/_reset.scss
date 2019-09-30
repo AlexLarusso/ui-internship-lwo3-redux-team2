@@ -1,0 +1,34 @@
+@import './variables';
+@import './fonts';
+
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $bgColorLight;
+  font-family: $mainFontRegular;
+}
+
+a {
+  text-decoration: none;
+  color: $bgColorDark;
+}
+
+button,
+select {
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+li {
+  list-style: none;
+}

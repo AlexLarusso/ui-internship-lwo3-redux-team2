@@ -1,9 +1,9 @@
-import TYPES from './actionTypes.js';
+import TYPES from './actionTypes';
 
 export const increment = () => ({
-    type: TYPES.INCREMENT,
-})
+  type: TYPES.INCREMENT,
+});
 
 export const decrement = () => ({
-    type: TYPES.DECREMENT,
-})
+  type: TYPES.DECREMENT,
+});

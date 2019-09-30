@@ -1,11 +1,10 @@
 import React from 'react';
 import './MainLogo.scss';
 
-function MainLogo() {
-  return (
-    <div className="main-logo">
+const MainLogo = () => (
+  <div className="main-logo">
     g a b o o
-    </div>
-  );
-}
+  </div>
+);
+
 export default MainLogo;

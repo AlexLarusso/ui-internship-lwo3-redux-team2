@@ -1,0 +1,32 @@
+@import '../../../styles/variables';
+
+.header {
+  &__line {
+    background-color: $bgColorDark;
+    color: $fontColorLight;
+    font-size: 14px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+}
+
+.email-phone {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+}
+
+.social-networks {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+}

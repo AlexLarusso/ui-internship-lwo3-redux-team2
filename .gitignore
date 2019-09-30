@@ -1,7 +1,8 @@
 /node_modules
-bundle.js
 npm-debug.log
 .DS_Store
+.yo-rc.json
+/dist
 
 # IntelliJ
 *.iml
